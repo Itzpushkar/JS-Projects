@@ -1,5 +1,5 @@
 let songIndex = 0;
-let audioElement = new Audio("Songs/1.mp3");
+let audioElement = new Audio("");
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressBar");
 let masterSongName = document.getElementById("masterSongName");
@@ -93,7 +93,7 @@ let allSingersName = [
 ];
 
 songItems.forEach((e, i) => {
-  console.log(e, i);
+  //// console.log(e, i);
   e.getElementsByTagName("img")[0].src = songs[i].coverPath;
   e.getElementsByClassName("songName")[0].innerText = songs[i].songName;
   e.getElementsByClassName("singerName")[0].innerText = songs[i].singerName;
@@ -114,7 +114,7 @@ masterPlay.addEventListener("click", () => {
 
 audioElement.addEventListener("timeupdate", () => {
   progress = parseInt((audioElement.currentTime / audioElement.duration) * 100);
-  console.log(progress);
+  // console.log(progress);
   myProgressBar.value = progress;
 });
 
