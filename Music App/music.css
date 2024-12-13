@@ -159,7 +159,7 @@ body {
 .icons {
   display: flex;
   width: auto;
-  margin-top: 13px;
+  margin-top: -30px;
   gap: 10px;
 }
 
@@ -170,6 +170,20 @@ body {
 #myProgressBar {
   width: 90vw;
   cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.time-info {
+  display: flex;
+  justify-content: flex-end;
+  width: 90vw;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#current-time,
+#total-duration {
+  font-weight: bold;
 }
 
 .songInfo {

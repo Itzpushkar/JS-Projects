@@ -114,6 +114,7 @@ masterPlay.addEventListener("click", () => {
 
 audioElement.addEventListener("timeupdate", () => {
   progress = parseInt((audioElement.currentTime / audioElement.duration) * 100);
+  console.log(progress);
   myProgressBar.value = progress;
 });
 
@@ -176,4 +177,32 @@ document.getElementById("previous").addEventListener("click", (e) => {
   masterSongName.innerText = songs[songIndex].songName;
   audioElement.currentTime = 0;
   audioElement.play();
+});
+
+function formatTime(seconds) {
+  let minutes = Math.floor(seconds / 60);
+  let remainingSeconds = Math.floor(seconds % 60);
+  return `${minutes}:${
+    remainingSeconds < 10 ? "0" + remainingSeconds : remainingSeconds
+  }`;
+}
+
+audioElement.addEventListener("timeupdate", () => {
+  // Update progress bar
+  let progress = parseInt(
+    (audioElement.currentTime / audioElement.duration) * 100
+  );
+  myProgressBar.value = progress;
+
+  // Update current time
+  document.getElementById("current-time").innerText = formatTime(
+    audioElement.currentTime
+  );
+});
+
+audioElement.addEventListener("loadeddata", () => {
+  // Update total duration when the audio is loaded
+  document.getElementById("total-duration").innerText = formatTime(
+    audioElement.duration
+  );
 });
