@@ -46,7 +46,9 @@ const generateBotRespone = async (incomingMessageDiv) => {
       .trim();
     messageElement.innerText = apiResponseText;
   } catch (error) {
-    console.log(data);
+    console.log(error);
+    messageElement.innerText = error.message;
+    messageElement.style.color = "#ff0000";
   } finally {
     incomingMessageDiv.classList.remove("thinking");
   }
