@@ -142,6 +142,43 @@ body {
   gap: 10px;
 }
 
+#songBanner {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 15px;
+  height: 455px; /* Adjust height as needed */
+  width: 33%;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  /* background-color: #fff; Default background color */
+  --song-banner-image: url(); /* Default image */
+}
+
+/* Add a background image and adjust opacity if needed */
+#songBanner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--song-banner-image); /* Use the CSS variable */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.25; /* Adjust opacity for dimming effect */
+  z-index: -1; /* Ensure image stays behind content */
+  border-radius: 15px;
+}
+
+.singer1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 .bottom {
   display: flex;
   flex-direction: column;

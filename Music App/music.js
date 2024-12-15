@@ -5,6 +5,12 @@ let myProgressBar = document.getElementById("myProgressBar");
 let masterSongName = document.getElementById("masterSongName");
 let masterSingerName = document.getElementById("masterSingerName");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
+let songBanner = document.getElementById("songBanner");
+
+// const song = songs[songIndex];
+
+// document.getElementById("bannerSongName").innerText = song.songName;
+// document.getElementById("bannerSingerName").innerText = song.singerName;
 
 let songs = [
   {
@@ -92,6 +98,19 @@ let allSingersName = [
   "Rajesh Ahir and Sabhiben Ahir",
 ];
 
+let songBannerImage = [
+  "./Images/Love.jpg",
+  "./Images/Soulmate.jpg",
+  "./Images/Saibo.jpg",
+  "./Images/Heeriye.webp",
+  "./Images/ChikniChameli.jpg",
+  "./Images/IllegalWeapon.jpg",
+  "./Images/Garmi.jpg",
+  "./Images/NamoNamo.jpg",
+  "./Images/Jaay.jpg",
+  "./Images/RanchhodRangila.jpg",
+];
+
 songItems.forEach((e, i) => {
   //// console.log(e, i);
   e.getElementsByTagName("img")[0].src = songs[i].coverPath;
@@ -138,7 +157,17 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
       e.target.src = "./Images/pause.png";
       masterSongName.innerText = songs[songIndex].songName;
       masterSingerName.innerText = allSingersName[songIndex];
-
+      if (songIndex + 1 == 4) {
+        songBanner.style.setProperty(
+          "--song-banner-image",
+          `url(./Images/${songIndex + 1}.webp)`
+        );
+      } else {
+        songBanner.style.setProperty(
+          "--song-banner-image",
+          `url(./Images/${songIndex + 1}.jpg)`
+        );
+      }
       audioElement.src = `Songs/${songIndex + 1}.mp3`;
       audioElement.currentTime = 0;
       audioElement.play();
@@ -159,6 +188,17 @@ document.getElementById("next").addEventListener("click", (e) => {
   masterPlay.src = "./Images/pause.png";
   audioElement.src = `Songs/${songIndex + 1}.mp3`;
   masterSongName.innerText = songs[songIndex].songName;
+  if (songIndex + 1 == 4) {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.webp)`
+    );
+  } else {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.jpg)`
+    );
+  }
   audioElement.currentTime = 0;
   audioElement.play();
 });
@@ -175,6 +215,17 @@ document.getElementById("previous").addEventListener("click", (e) => {
   masterPlay.src = "./Images/pause.png";
   audioElement.src = `Songs/${songIndex + 1}.mp3`;
   masterSongName.innerText = songs[songIndex].songName;
+  if (songIndex + 1 == 4) {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.webp)`
+    );
+  } else {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.jpg)`
+    );
+  }
   audioElement.currentTime = 0;
   audioElement.play();
 });
