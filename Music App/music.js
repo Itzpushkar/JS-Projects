@@ -385,3 +385,64 @@ audioElement.addEventListener("loadeddata", () => {
     audioElement.duration
   );
 });
+
+audioElement.addEventListener("ended", () => {
+  makeAllPlays();
+  singerImage.innerHTML = "";
+  if (songIndex >= 9) {
+    songIndex = 0;
+  } else {
+    songIndex += 1;
+  }
+  newIdOfSong = `${songIndex}`;
+  document.getElementById(newIdOfSong).src = "./Images/pause.png";
+  //   idOfSong.src = "./Images/pause.png";
+  masterPlay.src = "./Images/pause.png";
+  audioElement.src = `Songs/${songIndex + 1}.mp3`;
+  masterBannerSongName.innerText = songs[songIndex].bannerSongName;
+  masterBannerSingerName.innerText = songs[songIndex].bannerSingerName;
+  masterSongName.innerText = songs[songIndex].songName;
+  if (songIndex + 1 == 4) {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.webp)`
+    );
+  } else {
+    songBanner.style.setProperty(
+      "--song-banner-image",
+      `url(./Images/${songIndex + 1}.jpg)`
+    );
+  }
+
+  if (
+    songIndex + 1 == 1 ||
+    songIndex + 1 == 5 ||
+    songIndex + 1 == 8 ||
+    songIndex + 1 == 9
+  ) {
+    let img = document.createElement("img");
+    img.id = "singer1";
+    img.src = `./Singers/${songIndex + 1}(1).jpg`;
+    singerImage.appendChild(img);
+  }
+
+  if (
+    songIndex + 1 == 2 ||
+    songIndex + 1 == 3 ||
+    songIndex + 1 == 4 ||
+    songIndex + 1 == 6 ||
+    songIndex + 1 == 7 ||
+    songIndex + 1 == 10
+  ) {
+    let img1 = document.createElement("img");
+    img1.id = "singer1";
+    img1.src = `./Singers/${songIndex + 1}(1).jpg`;
+    singerImage.appendChild(img1);
+    let img2 = document.createElement("img");
+    img2.id = "singer2";
+    img2.src = `./Singers/${songIndex + 1}(2).jpg`;
+    singerImage.appendChild(img2);
+  }
+  audioElement.currentTime = 0;
+  audioElement.play();
+});
