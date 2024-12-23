@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:wght@303&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right bottom, #6e2083, #5386ceb0);
+}
+.container {
+  position: relative;
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 20px;
+}
+textarea {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 10px 15px;
+  resize: none;
+  outline: none;
+  border: 1px solid #aaa;
+  font-size: 18px;
+}
+button {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: #733f9a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 17.55px;
+}
+button:hover {
+  background: #35164f;
+}
