@@ -7,7 +7,7 @@ A simple AI-powered chatbot that allows users to send text messages, receive AI-
 
 <h2>Features</h2>
 <b>Real-time AI Responses:</b> <br> 
-The bot provides real-time AI-generated responses based on user input.<br>
+The bot provides real-time AI-generated responses based on user input.<br></br>
 
 <b>Emoji Support:</b> <br>
 Users can use emojis in their messages. <br>
@@ -22,7 +22,7 @@ Users can upload images, and the bot will display them in the chat.<br>
 HTML, 
 CSS, 
 JavaScript,
-EmojiMart for Emoji Picker<br>
+EmojiMart for Emoji Picker<br></br>
 
 <b>Backend:</b> <br>
 Google Gemini API (for generating responses)<br>
@@ -33,7 +33,7 @@ Fetch API (for making requests to the backend)<br>
 <h2>File Descriptions</h2>
 <b>1. index.html:</b><br>
 This file contains the structure of the chatbot UI, including the chat window, input fields, and buttons.
-It links to the ChatBot.css for styling and ChatBot.js for functionality.<br>
+It links to the ChatBot.css for styling and ChatBot.js for functionality.<br></br>
 
 <b>2. ChatBot.css:</b><br>
 Contains all the styling rules for the chatbot, including the layout, colors, and animations.
