@@ -5,23 +5,23 @@ I am currently pursuing my Diploma in Computer Engineering at VPMP Polytechnic.
 A simple AI-powered chatbot that allows users to send text messages, receive AI-generated responses, and upload images. The bot uses the Google Gemini 1.5 API for generating responses based on user inputs.
 
 <h2>Features</h2>
-<b>Real-time AI Responses:</b> 
+<b>Real-time AI Responses:</b> <br> 
 The bot provides real-time AI-generated responses based on user input.<br>
-<b>Emoji Support:</b> 
+<b>Emoji Support:</b> <br>
 Users can use emojis in their messages. <br>
-<b>File Upload:</b> 
+<b>File Upload:</b> <br>
 Users can upload images, and the bot will display them in the chat.<br>
 Responsive Design: The chatbot is designed to be responsive, working well on both desktop and mobile devices.<br>
 
 <h2>Tech Stack</h2>
-<b>Frontend:</b>
-HTML
-CSS
-JavaScript
+<b>Frontend:</b> <br>
+HTML, 
+CSS, 
+JavaScript.
 EmojiMart for Emoji Picker<br>
-<b>Backend:</b>
+<b>Backend:</b> <br>
 Google Gemini API (for generating responses)<br>
-<b>Libraries:</b>
+<b>Libraries:</b> <br>
 Fetch API (for making requests to the backend)<br>
 
 <h2>File Descriptions</h2>
