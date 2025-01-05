@@ -17,8 +17,6 @@ const userData = {
   },
 };
 
-// Create message with dynamic classes and return it
-
 const createMessageElement = (content, ...classes) => {
   const div = document.createElement("div");
   div.classList.add("message", ...classes);
@@ -26,11 +24,8 @@ const createMessageElement = (content, ...classes) => {
   return div;
 };
 
-// Generating BOT Response using API
-
 const generateBotRespone = async (incomingMessageDiv) => {
   const messageElement = incomingMessageDiv.querySelector(".message-text");
-  //API Request Options
   const requestOptions = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -46,12 +41,10 @@ const generateBotRespone = async (incomingMessageDiv) => {
     }),
   };
   try {
-    //Fetching BOT Response from API
     const response = await fetch(API_URL, requestOptions);
     const data = await response.json();
     if (!response.ok) throw new Error(data.error.message);
 
-    // Extract and Display BOT response text
     const apiResponseText = data.candidates[0].content.parts[0].text
       .replace(/\*\*(.*?)\*\*/g, "$1")
       .trim();
@@ -68,8 +61,6 @@ const generateBotRespone = async (incomingMessageDiv) => {
   }
 };
 
-// Handle Outgoing User Message
-
 const handleOutgoingMessage = (e) => {
   e.preventDefault();
 
@@ -77,7 +68,6 @@ const handleOutgoingMessage = (e) => {
   messageInput.value = "";
   fileUploadWrapper.classList.remove("file-uploaded");
 
-  // Create and Display user message
   const messageContent = `<div class="message-text"></div>
   ${
     userData.file.data
@@ -93,7 +83,6 @@ const handleOutgoingMessage = (e) => {
   chatBody.appendChild(outGoingMessageDiv);
   chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
 
-  // Triggering Bot message with thinking indicator after time delay
   setTimeout(() => {
     const messageContent = `<svg
             class="bot-avatar"
@@ -123,16 +112,12 @@ const handleOutgoingMessage = (e) => {
   }, 600);
 };
 
-//Handle Enter key for sending message
-
 messageInput.addEventListener("keydown", (e) => {
   const userMessage = e.target.value.trim();
   if (e.key === "Enter" && userMessage) {
     handleOutgoingMessage(e);
   }
 });
-
-//Handle fileInput Change
 
 fileInput.addEventListener("change", () => {
   const file = fileInput.files[0];
@@ -143,7 +128,6 @@ fileInput.addEventListener("change", () => {
     fileUploadWrapper.classList.add("file-uploaded");
     const base64String = e.target.result.split(",")[1];
 
-    //Store file in userdata
     userData.file = {
       data: base64String,
       mime_type: file.type,
