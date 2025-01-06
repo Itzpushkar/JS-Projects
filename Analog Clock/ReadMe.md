@@ -20,7 +20,7 @@ The clock adjusts well on all screen sizes. <br>
 
 <h2>Technologies Used </h2>
 HTML for structure, <br> <br>
-CSS for styling and animations, <br>
+CSS for styling and animations, <br> <br>
 JavaScript for real-time clock functionality. <br>
 
 <h2>File Descriptions </h2>
