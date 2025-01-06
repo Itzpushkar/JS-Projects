@@ -21,6 +21,6 @@ A simple web-based drawing application built with HTML, CSS, and JavaScript. It 
 
 <h2>Files Overview</h2>
 <b>1. drawing.html:</b> <br>The main HTML file that sets up the layout and structure of the app. <br>
-<b>drawing.css:</b> <br>The CSS file that styles the app, including layout, buttons, and canvas.<br>
-<b>drawing.js:</b> <br> The JavaScript file that handles the functionality of the drawing app (drawing on canvas, handling tool selection, color selection, etc.).<br>
-<b>icons/:</b> <br> Folder containing SVG icons for various tools (brush, eraser, shapes, etc.).
+<b>2. drawing.css:</b> <br>The CSS file that styles the app, including layout, buttons, and canvas.<br>
+<b>3. drawing.js:</b> <br> The JavaScript file that handles the functionality of the drawing app (drawing on canvas, handling tool selection, color selection, etc.).<br>
+<b>4. icons/:</b> <br> Folder containing SVG icons for various tools (brush, eraser, shapes, etc.).
