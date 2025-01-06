@@ -1,6 +1,6 @@
 Hello My name is Kikani Pushkar.
 I am currently pursuing my Diploma in Computer Engineering at VPMP Polytechnic.
-This is AI Chat Bot made by me using JS.
+This is Card Slider made by me using JS.
 
 <h2>Responsive Card Slider </h2>
 This project is a Responsive Card Slider built using HTML, CSS, and JavaScript. It features a carousel of cards that display images, badges, titles, and interactive buttons. The project is designed to be responsive, making it suitable for both desktop and mobile devices.
@@ -21,11 +21,10 @@ Navigation buttons (Next/Previous) are provided to navigate through the cards.
 Pagination dots are used to indicate the position of the current slide in the slider. <br>
 
 <h2>Tech Stack</h2>
-<b>Frontend:</b><br>
-HTML: For structuring the card layout and content.<br><br>
-CSS: For styling and creating the card's appearance, including the responsiveness and animations.<br><br>
-JavaScript: For handling the functionality of the swiper and dynamic behaviors like next/previous navigation.<br><br>
-Swiper.js: A powerful slider library to create responsive and interactive card sliders.
+<b>1.HTML:</b> <br> For structuring the card layout and content.<br><br>
+<b>2.CSS:</b><br> For styling and creating the card's appearance, including the responsiveness and animations.<br><br>
+<b>3. JavaScript:</b> <br> For handling the functionality of the swiper and dynamic behaviors like next/previous navigation.<br><br>
+<b>4. Swiper.js: </b> <br>A powerful slider library to create responsive and interactive card sliders.<br>
 
 <h2>File Descriptions</h2>
 <b>1. card.html </b> <br>

@@ -1,6 +1,6 @@
 Hello My name is Kikani Pushkar.
 I am currently pursuing my Diploma in Computer Engineering at VPMP Polytechnic.
-This is AI Chat Bot made by me using JS.
+This is Drawing application made by me using JS.
 
 <h2>Drawing App</h2>
 A simple web-based drawing application built with HTML, CSS, and JavaScript. It allows users to draw on a canvas with various tools such as a brush, eraser, and shape options (rectangle, circle, and triangle). The app also features color selection, brush size adjustments, and the ability to save the drawing as an image.
@@ -15,9 +15,9 @@ A simple web-based drawing application built with HTML, CSS, and JavaScript. It 
 <b>Save Drawing:</b> Save the current canvas as an image file.<br>
 
 <h2>Technologies Used </h2>
-<b>HTML:</b> Structure and content of the app. <br>
-<b>CSS:</b> Styling of the app, layout design, and user interface.<br>
-<b>JavaScript:</b> Handles the interactive functionalities like drawing, tool selection, color picker, and saving the canvas.<br>
+<b>1. HTML:</b> Structure and content of the app. <br>
+<b>2. CSS:</b> Styling of the app, layout design, and user interface.<br>
+<b>3. JavaScript:</b> Handles the interactive functionalities like drawing, tool selection, color picker, and saving the canvas.<br>
 
 <h2>Files Overview</h2>
 <b>1. drawing.html:</b> <br>The main HTML file that sets up the layout and structure of the app. <br>

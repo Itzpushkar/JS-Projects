@@ -17,23 +17,23 @@ This is a simple web-based AI image generation tool built using HTML, CSS, and J
 <b> User-Friendly Interface:</b> <br> Simple form to enter prompts and select the number of images. <br>
 
 <h2>Tech Stack</h2>
-<b>HTML:</b> <br> Structure of the web page. <br><br>
+<b>1. HTML:</b> <br> Structure of the web page. <br><br>
 
-<b> CSS: </b> <br> Styling the page for a clean and modern look.<br>
+<b>2. CSS: </b> <br> Styling the page for a clean and modern look.<br>
 
-<b> JavaScript:</b> <br> Interactivity and API integration with OpenAI's DALL·E 3 model.<br>
+<b>3. JavaScript:</b> <br> Interactivity and API integration with OpenAI's DALL·E 3 model.<br>
 
-<b> OpenAI API: </b> <br> Used to generate images from text descriptions.<br>
+<b>4. OpenAI API: </b> <br> Used to generate images from text descriptions.<br>
 
 <h2>File Descriptions </h2>
-<b>Image.html </b> <br>
+<b>1. Image.html </b> <br>
 Structure of the AI Image Generator tool: text input, image quantity dropdown, generate button, and an image gallery to display generated images. <br></br>
 
-<b> Image.css </b> <br>
+<b>2. Image.css </b> <br>
 Styles for the tool, including layout, responsiveness, and design for form inputs, buttons, and image gallery.<br>
 
-<b> Image.js </b> <br>
+<b>3. Image.js </b> <br>
 JavaScript that handles form submissions, communicates with OpenAI's API to generate images, and updates the image gallery with the results.<br>
 
-<b> Images/ Folder </b> <br>
+<b>4. Images/ Folder </b> <br>
 Contains assets like background images, example images, and icons (loader and download button).
