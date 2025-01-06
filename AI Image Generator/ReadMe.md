@@ -26,7 +26,7 @@ This is a simple web-based AI image generation tool built using HTML, CSS, and J
 <b> OpenAI API: </b> <br> Used to generate images from text descriptions.<br>
 
 <h2>File Descriptions </h2>
-<b>index.html </b> <br>
+<b>Image.html </b> <br>
 Structure of the AI Image Generator tool: text input, image quantity dropdown, generate button, and an image gallery to display generated images. <br></br>
 
 <b> Image.css </b> <br>
