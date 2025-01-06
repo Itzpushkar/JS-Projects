@@ -22,9 +22,9 @@ Pagination dots are used to indicate the position of the current slide in the sl
 
 <h2>Tech Stack</h2>
 <b>Frontend:</b><br>
-HTML: For structuring the card layout and content.<br>
-CSS: For styling and creating the card's appearance, including the responsiveness and animations.<br>
-JavaScript: For handling the functionality of the swiper and dynamic behaviors like next/previous navigation.<br>
+HTML: For structuring the card layout and content.<br><br>
+CSS: For styling and creating the card's appearance, including the responsiveness and animations.<br><br>
+JavaScript: For handling the functionality of the swiper and dynamic behaviors like next/previous navigation.<br><br>
 Swiper.js: A powerful slider library to create responsive and interactive card sliders.
 
 <h2>File Descriptions</h2>
