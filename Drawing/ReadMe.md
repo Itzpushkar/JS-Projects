@@ -15,7 +15,7 @@ A simple web-based drawing application built with HTML, CSS, and JavaScript. It 
 <b>Save Drawing:</b> Save the current canvas as an image file.<br>
 
 <h2>Technologies Used </h2>
-<b>HTML:</b> Structure and content of the app. <br><br>
+<b>HTML:</b> Structure and content of the app. <br>
 <b>CSS:</b> Styling of the app, layout design, and user interface.<br>
 <b>JavaScript:</b> Handles the interactive functionalities like drawing, tool selection, color picker, and saving the canvas.<br>
 
