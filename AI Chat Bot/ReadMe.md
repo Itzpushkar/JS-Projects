@@ -31,15 +31,15 @@ Google Gemini API (for generating responses)<br>
 Fetch API (for making requests to the backend)<br>
 
 <h2>File Descriptions</h2>
-<b>1. ChatBot.html:</b><br>
+<b>ChatBot.html:</b><br>
 This file contains the structure of the chatbot UI, including the chat window, input fields, and buttons.
 It links to the ChatBot.css for styling and ChatBot.js for functionality.<br></br>
 
-<b>2. ChatBot.css:</b><br>
+<b>ChatBot.css:</b><br>
 Contains all the styling rules for the chatbot, including the layout, colors, and animations.
 The styles ensure that the chatbot is visually appealing and works well on different devices.<br>
 
-<b>3. ChatBot.js:</b><br>
+<b>ChatBot.js:</b><br>
 Contains all the JavaScript code for handling user interactions, API requests, and UI updates.
 The script listens for user input, sends the message to the backend, receives the AI response, and updates the chat window.
 It also handles the file upload functionality and emoji picker.

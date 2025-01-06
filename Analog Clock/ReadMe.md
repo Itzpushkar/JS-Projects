@@ -19,25 +19,25 @@ The clock's design is made using CSS for a sleek, modern look with smooth transi
 The clock adjusts well on all screen sizes. <br>
 
 <h2>Technologies Used </h2>
-1. HTML for structure, <br> <br>
-2. CSS for styling and animations, <br> <br>
-3. JavaScript for real-time clock functionality. <br>
+HTML for structure, <br> <br>
+CSS for styling and animations, <br>
+JavaScript for real-time clock functionality. <br>
 
 <h2>File Descriptions </h2>
-<b>1. Analog.html:</b> <br>
+<b>Analog.html:</b> <br>
 This is the structure of the clock. It includes:
 
 A div element for the clock container.
 Three child div elements representing the hour, minute, and second hands.
 A set of span elements for the numbers on the clock face.<br><br>
-<b>2. Analog.css: </b><br>
+<b>Analog.css: </b><br>
 This file contains the styles for the clock:
 
 Background and layout of the clock.
 Styles for the clock hands and numbers.
 Animation for the glowing effect on hover. <br>
 
-<b>3. Analog.js: </b> <br>
+<b>Analog.js: </b> <br>
 This file handles the logic for updating the time on the clock:
 
 It retrieves the current time using JavaScript's Date() object.
