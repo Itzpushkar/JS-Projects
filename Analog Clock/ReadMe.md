@@ -19,8 +19,8 @@ The clock's design is made using CSS for a sleek, modern look with smooth transi
 The clock adjusts well on all screen sizes. <br>
 
 <h2>Technologies Used </h2>
-HTML5 for structure, <br> <br>
-CSS for styling and animations. <br>
+HTML for structure, <br> <br>
+CSS for styling and animations. <br> <br>
 JavaScript for real-time clock functionality. <br>
 
 <h2>File Descriptions </h2>
