@@ -30,7 +30,7 @@ JavaScript handles the logic of playing sounds when keys are clicked or pressed 
 
 <h2>Files Overview</h2>
 <b>piano.html:</b><br>
-The main HTML file that defines the structure of the Playable Piano. It includes elements for displaying the piano keys, volume control slider, and checkbox to show/hide key labels.<br>
+The main HTML file that defines the structure of the Playable Piano. It includes elements for displaying the piano keys, volume control slider, and checkbox to show/hide key labels.<br><br>
 
 <b>piano.css:</b><br>
 The CSS file for styling the piano interface, including the appearance of white and black keys, hover effects, key press animations, and responsive design for smaller screens.<br>

@@ -33,7 +33,7 @@ Handles the game logic, including word scrambling, timer functionality, and chec
 
 <h2>Files Overview</h2>
 <b>scramble.html</b> <br>
-The main HTML file contains the structure for the Word Scramble Game, including the word display, input field, hint, timer, and action buttons.<br>
+The main HTML file contains the structure for the Word Scramble Game, including the word display, input field, hint, timer, and action buttons.<br><br>
 
 <b>scramble.css</b> <br>
 The CSS file defines the layout and styling of the app, including buttons, text input, and responsiveness for mobile screens.<br>

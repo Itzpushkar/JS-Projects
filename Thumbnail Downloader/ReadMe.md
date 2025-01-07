@@ -2,7 +2,7 @@ Hello My name is Kikani Pushkar.
 I am currently pursuing my Diploma in Computer Engineering at VPMP Polytechnic.
 This is YT Video Thumbnail Downloader made by me using JS.
 
-YouTube Thumbnail Downloader
+<h2>YouTube Thumbnail Downloader</h2>
 This project allows users to easily download YouTube video thumbnails by pasting the video URL into a form. The application extracts the thumbnail image associated with the video and provides the user with an option to download it directly.Make sure that: <b>You save the thumbnail.php file in <br> <br> <b>i) Windows<b> <br>
 
 1. XAMPP - C:\xampp\htdocs\your-project-folder\ <br>

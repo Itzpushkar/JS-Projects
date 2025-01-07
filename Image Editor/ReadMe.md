@@ -24,7 +24,7 @@ Save the edited image to the device in JPEG format.<br>
 <p>Here’s a brief demonstration of how the application works:</p>
 
 <b>Brightness Filter:</b> <br>
-Adjusts the lightness or darkness of the image.<br><br>
+Adjusts the lightness or darkness of the image.<br>
 
 <b>Saturation Filter:</b> <br>
 Controls the intensity of the colors in the image.<br>
