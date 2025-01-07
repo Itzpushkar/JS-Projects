@@ -45,10 +45,10 @@ The CSS file that styles the user interface and layout of the Music App, includi
 The JavaScript file that implements the functionality of the Music App, such as the song playing mechanism, progress bar updates, and event handling for play/pause buttons and navigation controls.
 
 <h2>Customization</h2>
-You can customize the app by modifying the following:<br>
+You can customize the app by modifying the following:<br><br>
 
 <b>Playlist:</b> <br>
-Add more songs by editing the songName and singerName fields in the index.html. You can also add more songItem blocks to the playlist.<br><br>
+Add more songs by editing the songName and singerName fields in the index.html. You can also add more songItem blocks to the playlist.<br>
 
 <b>Design:</b> <br>
 Modify the music.css file to change the appearance and layout of the app, such as the buttons, background, or song list styling.<br>

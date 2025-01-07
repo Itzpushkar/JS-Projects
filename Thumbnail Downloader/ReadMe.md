@@ -1,13 +1,17 @@
+Hello My name is Kikani Pushkar.
+I am currently pursuing my Diploma in Computer Engineering at VPMP Polytechnic.
+This is YT Video Thumbnail Downloader made by me using JS.
+
 YouTube Thumbnail Downloader
-This project allows users to easily download YouTube video thumbnails by pasting the video URL into a form. The application extracts the thumbnail image associated with the video and provides the user with an option to download it directly.Make sure that: <b><i>You save the thumbnail.php file in <br> <br> <b>i) Windows<b> <br>
+This project allows users to easily download YouTube video thumbnails by pasting the video URL into a form. The application extracts the thumbnail image associated with the video and provides the user with an option to download it directly.Make sure that: <b>You save the thumbnail.php file in <br> <br> <b>i) Windows<b> <br>
 
 1. XAMPP - C:\xampp\htdocs\your-project-folder\ <br>
 2. WAMP - C:\wamp64\www\your-project-folder\ <br>
 3. MAMP - C:\MAMP\htdocs\your-project-folder\ <br> <br>
-   in <b>ii) MacOS </b> <br><br>
+   <b>ii) MacOS </b> <br><br>
 4. XAMPP - /Applications/XAMPP/htdocs/your-project-folder/ <br>
 5. MAMP - /Applications/MAMP/htdocs/your-project-folder/ <br> <br>
-   in <b>iii) Linux </b> <br><br>
+   <b>iii) Linux </b> <br><br>
 6. XAMPP - /Applications/XAMPP/htdocs/your-project-folder/
 7. LAMP - /var/www/html/your-project-folder/
 
@@ -38,7 +42,7 @@ Handles the image download functionality by fetching the thumbnail.<br>
 Manages the URL input, dynamically displays the thumbnail preview, and manages the interaction with the backend.<br>
 
 <h2>Files Overview</h2>
-<b>index.php </b> <br>
+<b>thumbnail.php </b> <br>
 Contains both the HTML structure and PHP code to handle the image download. When the user submits the form, the PHP code fetches the image and triggers the download.<br><br>
 
 <b>thumbnail.css </b> <br>
